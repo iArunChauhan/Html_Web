@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+
+}
+
+.playfair-font {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+}
+
+.lato-font {
+  font-family: "Lato", sans-serif;
+}
+
+.head-button {
+  background-color: #fb5607;
+}
+
+.hero-section-index {
+  height: auto;
+  width: 100%;
+}
+
+.nav-item>a {
+  color: white;
+  font-size: 1rem;
+}
+
+.main-container-hero-section-index {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url('/assests/images/home-hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main-container-hero-section-index::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 18, 25, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.index-hero-section-content {
+
+  padding-block: 5rem;
+  padding-bottom: 9rem;
+  padding-inline: 2rem;
+
+
+}
+
+.package-card>img {
+
+
+  border-radius: 80px;
+
+}
+
+.packages-details {
+
+  width: 60%;
+
+
+  background: rgb(255, 253, 252);
+
+
+  border-radius: 50%;
+
+
+}
+
+.pacakage-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1rem
+}
+
+.pacakage-content>h4 {
+
+  color: #fb5607;
+  border-radius: 40px;
+
+
+
+}
+
+
+
+.continant {
+
+  text-transform: uppercase;
+
+  color: #fb5607;
+
+  letter-spacing: 1px;
+
+}
+
+.third-section {
+
+
+
+  padding-inline: 10rem;
+
+  padding-block: 6rem;
+
+
+}
+
+.third-section-img {
+
+  height: 420px;
+
+  width: 386px;
+
+}
+
+.third-section-img-1 {
+
+  height: 468px;
+
+  width: 386px;
+
+}
+
+
+.Adventure {
+
+  font-size: 52px;
+
+  font-weight: 700;
+
+  color: black;
+
+}
+
+.choose-btn {
+  padding: 7px 35px;
+  border-radius: 40px;
+  border: none;
+  background: #ffece3;
+  color: #ff6b00;
+  letter-spacing: 1px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.test-btn {
+
+  text-transform: uppercase;
+
+  padding: 7px 35px;
+  border-radius: 40px;
+  border: none;
+  background: #ffece3;
+  color: #ff6b00;
+  letter-spacing: 1px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+
+
+
+.fiveth-section p {
+
+  font-size: 16px;
+}
+
+
+
+.sixth-section {
+  background: #fb5607;
+}
+
+.inner-sixth {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* z-index: 2; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+
+  font-size: 16px;
+
+  color: #fffffc;
+
+  text-align: center;
+
+}
+
+/*
+  
+     About page Star here
+
+  */
+
+
+.hero-section-packages{
+      
+
+   display: flex ;
+
+   justify-content: center;
+
+
+   align-items:center;
+
+
+} 
+
+
+.main-container-hero-section-about {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url('/assests/images/about-hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main-container-hero-section-about::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 18, 25, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-hero-section-content {
+  /* 
+    padding-block: 5rem; */
+  /* padding-bottom: 9rem; */
+  padding-inline: 2rem;
+  padding-top: 8rem;
+
+
+}
+
+
+
+.card-section {
+
+  padding-block: 4rem;
+
+  background-color: #fffffc;
+
+  border: 1px solid #d1d1d1;
+
+}
+
+.count {
+
+  font: size 52px;
+
+  font-weight: 700;
+
+}
+
+.exprience {
+
+  font: size 16px;
+
+  font-weight: 400;
+
+
+}
+
+.matop {
+
+  top: 8rem;
+
+}
+
+.about-second-section {
+
+
+  position: relative;
+
+  top: 12rem;
+}
+
+.about-travel {
+
+  font-size: 3.25em;
+
+  font-weight: 700;
+  color: #000000;
+}
+
+.about-our-team {
+
+  font-optical-sizing: auto;
+
+  font-size: 16px;
+}
+
+.customize-btn {
+
+
+  padding: 7px 15px;
+  border-radius: 40px;
+  border: none;
+  background: #ffece3;
+  color: #ff6b00;
+  letter-spacing: 1px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 400;
+
+
+}
+
+
+/*
+
+    < ----------------- Pakages Start Here  ---------------------->
+*/
+.hero-section-packages {
+
+  height: 100vh;
+  width: 100%;
+
+}
+
+.main-container-hero-section-packages {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url('/assests/images/packages-hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main-container-hero-section-packages::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 18, 25, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero-packages-content{
+  
+
+  padding-block:8rem;
+    
+
+}
+
+.packages-our {
+
+  font-size: 16px;
+
+  background-color: #D1D1D145;
+
+  color: white;
+
+  z-index: 2;
+
+  border-radius: 40px;
+
+  padding-inline: 2.4rem;
+
+  padding-block: 0.4rem;
+
+
+
+  font-weight: 400;
+
+
+}
+
+.packages-discover {
+
+  font-size: 70px;
+
+  color: white;
+
+  z-index: 2;
+
+  font-weight: 700;
+
+  line-height: normal;
+
+}
+
+
+
+
+.packages-card{
+   
+  border: 1px solid #d1d1d1;
+
+  border-top-right-radius: 20px; 
+  border-bottom-right-radius: 20px; 
+
+
+
+  
+
+
+}
+.packages-card-img{
+
+   border-radius:55px;
+
+}
+.packages-africa{
+
+  font: size 16px;
+
+  border-radius:40px;
+
+  font-weight: 400;
+
+  background-color: #ffece3;
+
+  color: #ff6b00;
+
+  padding-inline:2.2rem;
+
+  padding-block:0.4rem;
+
+  letter-spacing:1px;
+
+
+
+
+}
+.packages-enchanting{
+
+  font: size 30px;
+
+  font-weight: 700;
+
+
+}
+.packages-days{
+
+  font-size:16px;
+  font-weight: 400;
+  
+
+}
+.packages-icons {
+
+    display: flex;
+
+    gap:1rem
+
+
+}
+.start-trip-btn{
+
+  display: flex;
+
+  gap: 8rem;
+}
+
+
+/*
+
+    < ----------------- Pakages end Here---------------------->
+*/
+
+
+
+
+
+@media (max-width: 576px) {
+
+  .third-section-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+
+  .pt {
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+  .kt {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20rem;
+
+    margin-bottom: 23rem;
+
+  }
+
+  .third-section {
+    padding-inline: 2rem;
+
+    padding-block: 4rem;
+
+  }
+
+  .img-4 {
+
+    display: flex;
+
+    gap: 4rem;
+
+  }
+
+  .third-3 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4rem;
+
+  }
+
+  .detination {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .choose-btn {
+
+    padding: 15px 40px;
+
+  }
+
+  .your {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.8rem;
+  }
+   .packages-card-container{
+           
+     display: flex;
+
+     flex-direction: column;
+
+     gap:3rem;
+
+     justify-content: center;
+
+     align-items: center;
+
+   }
+   .start-trip-btn{
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap:2rem;
+
+   }
+
+}
